@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1> <i class='fa fa-thermometer-half'></i><span> Temperature </span> Converter  <i class='fa fa-sun-plant-wilt'></i> </h1>
+
+  </div>
+<br>
+<br>
+<br>
+<div class="title">
+<p>Enter a temperature in Celsius:</p>
+</div>
+<br>
+<br>
+<br>
+  <div class="content">
+
+  <input type="text" id="celsius" value="0">
+  <label for="celsius">°C</label>
+  <br>
+  <input type="button" onclick="convertToFahrenheit()" value="Convert">
+<br>
+<br>
+<br>
+<div class="title">
+  <p>Enter a temperature in Fahrenheit:</p>
+  </div>
+  <br>
+<br>
+<br>
+
+  <input type="text" id="fahrenheit" value="32">
+  <label for="fahrenheit">°F</label>
+  <br>
+  <input type="button" onclick="convertToCelsius()" value="Convert">
+
+</div>
+<br>
+<br>
+<br>
+<div class="result">
+<p id="result"></p>
+</div>
+
+<script src="js.js"></script>
+
+
+</body>
+</html>

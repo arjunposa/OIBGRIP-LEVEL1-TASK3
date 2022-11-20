@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@100;300;400;500;800&display=swap');
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family:Recursive;
+    justify-content: center;
+}
+html{
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #ffdd94;
+    
+    } 
+
+.header{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+   position: relative;
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: lightcoral;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: space-around;
+}
+.header .fa-thermometer-half{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color:black;
+}
+.header .fa-sun-plant-wilt{
+    position: relative
+    width: 20px;
+    height: 20px;
+    color:lightgreen;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 100;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display:block;
+    text-align: center;
+}
+.content  input[type=text]
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ccabdb;
+    border-radius: 100px;
+    cursor: pointer;
+    padding:  .5rem 0;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.content  input[type=button]{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    background: var(--main-color);
+    color: #222;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+  }
+  .content  input[type=button]:hover{
+    background:#fff;
+    letter-spacing: 0.5rem;
+  }
+  .result{
+   text-align: center;
+   font-size: 2rem;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 480px) {
+
+    html {
+    width: 100%;
+    font-size: small;
+    height: max-content;
+    }
+    .header{
+        width: 100%;
+        font-size: medium;
+        height: max-content;
+    }
+
+
+    }
